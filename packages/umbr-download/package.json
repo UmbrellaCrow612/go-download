@@ -1,0 +1,28 @@
+{
+  "name": "umbr-download",
+  "version": "0.0.1",
+  "description": "A fast downloader over fetch using Go under the hood",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "download",
+    "go",
+    "binary",
+    "cli"
+  ],
+  "author": "Yousaf Wazir",
+  "license": "ISC",
+  "files": [
+    "index.js",
+    "README.md",
+    "bin/"
+  ],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "engines": {
+    "node": ">=16"
+  }
+}
