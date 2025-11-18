@@ -5,13 +5,13 @@ A npm package that wraps a go binary to download files or folders really fast us
 # Install
 
 ```bash
-npm i umbr-download --save-dev
+npm i umbr-dl --save-dev
 ```
 
 # Usage
 
 ```js
-const { download } = require("umbr-download");
+const { download } = require("umbr-dl");
 
 download("URL", { name: "download.zip", path: "." });
 // Download the URL, names it download.zip and saves it in the current working directory

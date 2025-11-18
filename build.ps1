@@ -1,7 +1,7 @@
 # Build-GoProject.ps1
 
 $projectRoot = Resolve-Path .
-$outputDir = Join-Path $projectRoot "packages\umbr-download\bin"
+$outputDir = Join-Path $projectRoot "packages\umbr-dl\bin"
 
 # Ensure output directory exists
 if (-not (Test-Path $outputDir)) {
