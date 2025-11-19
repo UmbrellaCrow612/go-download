@@ -1,10 +1,10 @@
 {
   "name": "umbr-dl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A fast downloader over fetch using Go under the hood",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node scripts/postinstall.js"
+    "postinstall": "chmod +x bin/*"
   },
   "keywords": [
     "download",
