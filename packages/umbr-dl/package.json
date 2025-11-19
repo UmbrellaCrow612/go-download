@@ -1,9 +1,11 @@
 {
   "name": "umbr-dl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A fast downloader over fetch using Go under the hood",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
   "keywords": [
     "download",
     "go",
@@ -21,8 +23,5 @@
     "darwin",
     "linux",
     "win32"
-  ],
-  "engines": {
-    "node": ">=16"
-  }
+  ]
 }
